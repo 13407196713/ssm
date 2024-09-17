@@ -24,4 +24,5 @@ public interface AppointmentDao {
 	 */
 	Appointment queryByKeyWithBook(@Param("bookId") long bookId, @Param("studentId") long studentId);
 
+	
 }
